@@ -3,7 +3,7 @@ from django.shortcuts import render, redirect
 
 # Create your views here.
 from django.urls import reverse_lazy
-from django.views.generic import ListView, CreateView, UpdateView, DetailView, DeleteView
+from django.views.generic import ListView, CreateView, UpdateView, DetailView, DeleteView, TemplateView
 
 from bookmark.models import Bookmark
 
@@ -34,3 +34,5 @@ class BookmarkDetailView(LoginRequiredMixin, DetailView):
 class BookmarkDeleteView(LoginRequiredMixin, DeleteView):
     model = Bookmark
     success_url = reverse_lazy('bookmark:index')
+
+
