@@ -1,0 +1,12 @@
+.delete-container {
+    background: var(--oc-red-3);
+    margin-top: 1rem;
+
+    padding: 1rem;
+
+}
+
+.delete-container .delete-button {
+    width: 4rem;
+    text-align: center;
+}

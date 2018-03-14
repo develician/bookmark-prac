@@ -1,0 +1,23 @@
+.form-container {
+    display: flex;
+
+}
+
+form {
+    margin: 0 auto;
+    font-weight: 600;
+
+}
+
+form input {
+    border: none;
+    outline: none;
+
+    border: 1px solid black;
+
+
+}
+
+form input[type='submit'] {
+    margin-left: 5rem;
+}

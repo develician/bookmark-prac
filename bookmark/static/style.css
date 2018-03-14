@@ -1,0 +1,87 @@
+@import url("//fonts.googleapis.com/earlyaccess/notosanskr.css");
+@import url("//cdn.jsdelivr.net/gh/velopert/font-d2coding@1.2.1/d2coding.css");
+@import "./open-color/open-color.css";
+
+body {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Noto Sans KR", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+
+
+}
+
+* {
+    box-sizing: inherit;
+
+    -moz-user-select: none;
+   -khtml-user-select: none;
+   -webkit-user-select: none;
+
+   /*
+     Introduced in IE 10.
+     See http://ie.microsoft.com/testdrive/HTML5/msUserSelect/
+   */
+   -ms-user-select: none;
+   user-select: none;
+
+}
+
+a {
+    text-decoration: inherit;
+    color: inherit;
+}
+
+.container {
+    margin-left: 3rem;
+    margin-right: 3rem;
+
+}
+
+.top-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--oc-teal-7);
+    border-bottom: 2px solid black;
+
+}
+
+.brand-logo {
+    font-weight: 600;
+    font-size: 2.5rem;
+    color: white;
+}
+
+.right-button {
+    display: flex;
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none;
+}
+
+.button {
+    margin-left: auto;
+    background: var(--oc-teal-5);
+    margin-top: 1rem;
+    border-radius: 3px;
+    padding: 0.5rem;
+    color: white;
+    font-weight: 500;
+    border: 3px solid var(--oc-gray-3);
+
+
+}
+
+.button:hover {
+    background: var(--oc-teal-6);
+}
+
+.button:active {
+    background: var(--oc-teal-7);
+}

@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+{% block title %}Detail View{% endblock %}
+{% block content %}
+    <div class="site-name">
+        Site Name: {{ object.site_name }}
+    </div>
+    <div class="url">
+        URL: {{ object.url }}
+    </div>
+{% endblock %}

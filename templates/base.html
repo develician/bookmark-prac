@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %}{% endblock %}</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'style.css' %}"/>
+    <link rel="stylesheet" href="{% static './bookmark/create.css' %}"/>
+    <link rel="stylesheet" href="{% static './bookmark/list.css' %}"/>
+    <link rel="stylesheet" href="{% static './bookmark/delete.css' %}"/>
+</head>
+<body>
+    <div class="container">
+        <div class="top-container">
+            <div class="brand-logo">
+                <a href="/">Book Mark</a>
+            </div>
+        </div>
+        {% block content %}
+        {% endblock %}
+    </div>
+
+</body>
+</html>

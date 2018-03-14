@@ -1,0 +1,58 @@
+
+table {
+    margin: 0 auto;
+    background: var(--oc-gray-3);
+    border: 1px solid black;
+    border-collapse: collapse;
+
+    text-align: center;
+}
+
+table th {
+    padding: 1rem;
+    border: 1px solid black;
+}
+
+table td {
+    border: 1px solid black;
+}
+
+.modify-button {
+    color: white;
+    background: var(--oc-orange-3);
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none;
+
+}
+
+.modify-button:hover {
+    background: var(--oc-orange-4);
+
+}
+
+.modify-button:active {
+    background: var(--oc-orange-5);
+}
+
+.delete-button {
+    color: white;
+    background: var(--oc-red-7);
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none;
+}
+
+.delete-button:hover {
+    background: var(--oc-red-8);
+}
+
+.delete-button:active {
+    background: var(--oc-red-9);
+}
